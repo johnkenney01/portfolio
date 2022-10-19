@@ -1,0 +1,70 @@
+/*
+CLASS == .className
+ID == #IdName 
+*/
+.row-header{
+    border-bottom: groove;
+    border-width: 10px;
+    color: darkcyan;
+}
+.row-header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column-header{
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.column-header h1{
+    font-size: 100px;
+}
+.column-header h2{
+    font-size: 50px;
+}
+.column-header img{
+    width: 90%;
+    border-style: double;
+    border-width: 10px;
+
+    
+}
+
+.column {
+    float: left;
+    /* padding-right: 20px; */
+    width: 33.33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkcyan;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.body-list h4{
+    font-style: italic;
+}
+.column h1{
+    color: rgb(210, 81, 81);
+    text-decoration: underline;
+}
+.column h2{
+    color: rgb(77, 186, 77);
+    
+}
+
+.body-list li{
+    font-size: large;
+}
+
+p{
+    text-indent: 30px;
+    font-size: large;
+}
