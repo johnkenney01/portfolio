@@ -42,29 +42,11 @@ ID == #IdName
   }
   
   /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
-.body-list h4{
-    font-style: italic;
-}
-.column h1{
-    color: rgb(210, 81, 81);
-    text-decoration: underline;
-}
-.column h2{
-    color: rgb(77, 186, 77);
-    
-}
-
-.body-list li{
-    font-size: large;
-}
-
-p{
-    text-indent: 30px;
-    font-size: large;
+#home-nav-bar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
