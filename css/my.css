@@ -3,20 +3,18 @@ CLASS == .className
 ID == #IdName 
 */
 .row-header{
-    
+    width: 100%;
+    height: 100%;
     color: white;
 }
-.row-header:after{
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .column-header{
     float: left;
     width: 50%;
+    height: 100%;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    color: white;
     
 }
 .column-header h1{
@@ -27,23 +25,15 @@ ID == #IdName
     font-size: 50px;
 }
 
-
-.column {
-    float: left;
-    /* padding-right: 20px; */
-    width: 33.33%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkcyan;
-  }
-  
-  /* Clear floats after the columns */
-
 #home-nav-bar{
+    width: 50%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: auto;
+    padding-top: 5%;
+    float: left;
 }
 
 body{
@@ -54,10 +44,16 @@ body{
 
 a:link{
     color: red;
+    background-color: rgba(255, 255, 255, 0.70);
+    
 }
 a:visited{
-    color: lightskyblue;
+    color:red;
 }
 a:hover{
     color: yellow;
+}
+li{
+    list-style: none;
+    padding-bottom: 3%;
 }
